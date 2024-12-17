@@ -59,8 +59,4 @@ This script is provided as-is. Feel free to use, modify, and distribute under yo
 
 For questions or feedback, please open an issue or contact me at [khankhanbakhtiyar@gmail.com](mailto:khankhanbakhtiyar@gmail.com).
 
----
-
-*Tool developed and maintained by [Bakhtiyar Ahmad]*
-
-```
+*Tool made with ❤️ by Bakhtiyar Ahmad*

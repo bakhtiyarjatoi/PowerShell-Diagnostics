@@ -64,10 +64,3 @@ For questions or feedback, please open an issue or contact me at [khankhanbakhti
 *Tool developed and maintained by [Bakhtiyar Ahmad]*
 
 ```
-
-### Customization:
-- Replace `bakhtiyarjatoi` in the `git clone` command with your actual GitHub bakhtiyarjatoi.
-- Replace `[khankhanbakhtiyar@gmail.com](mailto:khankhanbakhtiyar@gmail.com)` with your actual email if you'd like.
-- Customize the "License" section if you intend to add a specific license for your script.
-
-This README gives an overview of the script, its features, and how to use it. You can always modify it based on additional features or updates to the script.

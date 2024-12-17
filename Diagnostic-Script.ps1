@@ -71,3 +71,5 @@ Get-LocalUser |
 
 # Notify user of report location
 "Diagnostics report saved to: $OutputDirectory" | Write-Output
+
+"Tool made with ❤️ by Bakhtiyar Ahmad" | Write-Output

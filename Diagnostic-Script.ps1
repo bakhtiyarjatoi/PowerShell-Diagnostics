@@ -69,7 +69,19 @@ Get-HotFix |
 Get-LocalUser |
     Export-Csv -Path $UserAccountsFile -NoTypeInformation
 
+# Registry Operations (e.g., Startup Programs)
+$StartupProgramsFile = "$OutputDirectory\StartupPrograms.csv"
+Get-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\Run" |
+    Select-Object PSChildName, Value |
+    Export-Csv -Path $StartupProgramsFile -NoTypeInformation
+
+# Scheduled Tasks
+$ScheduledTasksFile = "$OutputDirectory\ScheduledTasks.csv"
+Get-ScheduledTask | Select-Object TaskName, TaskPath, State, Actions |
+    Export-Csv -Path $ScheduledTasksFile -NoTypeInformation
+
+
 # Notify user of report location
 "Diagnostics report saved to: $OutputDirectory" | Write-Output
 
-"Tool made with ❤️ by Bakhtiyar Ahmad" | Write-Output
+"Script made with ❤️ by Bakhtiyar Ahmad" | Write-Output

@@ -72,5 +72,5 @@ For questions or feedback, please open an issue or contact me via email:
 📧 [khankhanbakhtiyar@gmail.com](mailto:khankhanbakhtiyar@gmail.com)
 
 
-*Tool made with ❤️ by Bakhtiyar Ahmad*
+*Script made with ❤️ by Bakhtiyar Ahmad*
 
